@@ -146,6 +146,27 @@ const humus = function (factor) {
 
 console.log(humus(4))
 
+const potencia = (base, exponente) => {
+    let result = 1;
+    for (let cuenta = 0; cuenta < exponente; cuenta++) {
+        result *= base;
+    }
+    return result;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
