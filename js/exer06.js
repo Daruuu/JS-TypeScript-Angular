@@ -33,9 +33,6 @@ function contarFs(word) {
 
 contarFs('qwerrtyff');
 
-function contarFsV1(string) {
-    return;
-}
 
 function contarCaracteres(string, caracter) {
     let count = 0;
