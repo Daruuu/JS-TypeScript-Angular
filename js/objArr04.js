@@ -44,8 +44,55 @@ console.log(arrayStrings.slice(3, 7));
 console.log("TRIM");
 console.log("   okey \n ".trim());
 
+
+//PADSTAR
+// toma la longitud deseada y el caracter de relleno como arguments.
+console.log("PADSTAR");
+console.log(String(6).padStart(3, "0"));
+
+//SPLIT
+console.log('SPLIT');
+console.log('JOIN');
 let oracion = "Los pajaros secretarios se especializan en pisotear";
+console.log('NORMAL:\n' + oracion);
 let palabras = oracion.split(" ");
 console.log(palabras);
 
 console.log(palabras.join(". "));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
